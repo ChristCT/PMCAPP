@@ -19,7 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-   # Step to install dependencies
+
+      # Step to install dependencies
       - name: Install dependencies
         run: npm install
 
